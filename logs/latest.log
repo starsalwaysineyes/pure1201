@@ -1,0 +1,126 @@
+[25Jan2024 13:09:00.024] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[25Jan2024 13:09:00.032] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.1 by Microsoft; OS Linux arch amd64 version 6.2.0-1018-azure
+[25Jan2024 13:09:00.246] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Jan2024 13:09:00.323] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/pure1201/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Jan2024 13:09:00.654] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pure1201/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[25Jan2024 13:09:00.655] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pure1201/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[25Jan2024 13:09:00.657] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pure1201/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[25Jan2024 13:09:00.659] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pure1201/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[25Jan2024 13:09:00.791] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25Jan2024 13:09:02.842] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[25Jan2024 13:09:12.737] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[25Jan2024 13:09:12.746] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[25Jan2024 13:09:14.259] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Jan2024 13:09:15.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[25Jan2024 13:09:16.860] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Jan2024 13:09:18.587] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/pure1201/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[25Jan2024 13:09:18.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/pure1201/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[25Jan2024 13:09:21.995] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25Jan2024 13:09:22.430] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[25Jan2024 13:09:23.607] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Jan2024 13:09:23.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Jan2024 13:09:23.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Jan2024 13:09:23.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Jan2024 13:09:23.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Jan2024 13:09:24.037] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Jan2024 13:09:24.213] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Jan2024 13:09:24.215] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Jan2024 13:09:24.216] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Jan2024 13:09:24.216] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Jan2024 13:09:24.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Jan2024 13:09:34.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Jan2024 13:09:40.875] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.877] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.878] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.879] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.880] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.881] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.882] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.885] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.888] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.913] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.917] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.923] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:40.932] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:41.342] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:41.844] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:42.359] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:42.894] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jan2024 13:09:43.279] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8938 ms
+[25Jan2024 13:09:43.280] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.047s)! For help, type "help"
+[25Jan2024 13:09:43.302] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Jan2024 13:14:12.422] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aurora[/[::1]:36858] logged in with entity id 125 at (76.5, 69.0, 18.5)
+[25Jan2024 13:14:12.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora joined the game
+[25Jan2024 13:38:34.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 13:39:43.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aurora lost connection: Disconnected
+[25Jan2024 13:39:43.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora left the game
+[25Jan2024 13:41:59.967] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aurora[/[::1]:54218] logged in with entity id 2912 at (62.444532724481704, 65.0, 37.391876499071394)
+[25Jan2024 13:41:59.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora joined the game
+[25Jan2024 13:44:14.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 13:47:13.059] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aurora lost connection: Disconnected
+[25Jan2024 13:47:13.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora left the game
+[25Jan2024 13:59:57.662] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Judy[/[::1]:59392] logged in with entity id 3656 at (82.5, 71.0, 14.5)
+[25Jan2024 13:59:57.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy joined the game
+[25Jan2024 14:01:12.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was shot by Skeleton
+[25Jan2024 14:01:33.189] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@58cbad1f[id=<null>,name=Aurora,properties={},legacy=false] (/[::1]:35490) lost connection: Disconnected
+[25Jan2024 14:01:35.767] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aurora[/[::1]:39250] logged in with entity id 3890 at (118.69999998807907, 60.0, 52.69999998807907)
+[25Jan2024 14:01:35.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora joined the game
+[25Jan2024 14:02:04.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora tried to swim in lava
+[25Jan2024 14:02:11.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Spider
+[25Jan2024 14:04:15.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy has made the advancement [Monster Hunter]
+[25Jan2024 14:13:03.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora fell from a high place
+[25Jan2024 14:14:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The difficulty has been set to Hard
+[25Jan2024 14:15:09.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Stone Age]
+[25Jan2024 14:15:23.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Getting an Upgrade]
+[25Jan2024 14:15:33.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy has made the advancement [Stone Age]
+[25Jan2024 14:17:23.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy has made the advancement [Getting an Upgrade]
+[25Jan2024 14:19:08.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Monster Hunter]
+[25Jan2024 14:20:17.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was slain by Judy
+[25Jan2024 14:21:25.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was shot by Skeleton
+[25Jan2024 14:21:57.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was blown up by Creeper
+[25Jan2024 14:22:03.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 14:23:27.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was shot by Skeleton
+[25Jan2024 14:23:56.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was slain by Spider
+[25Jan2024 14:24:33.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was shot by Skeleton
+[25Jan2024 14:24:49.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was slain by Zombie
+[25Jan2024 14:24:53.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was blown up by Creeper
+[25Jan2024 14:25:16.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was slain by Zombie
+[25Jan2024 14:26:25.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was slain by Zombie
+[25Jan2024 14:26:32.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Zombie
+[25Jan2024 14:26:43.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Zombie
+[25Jan2024 14:28:39.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy fell from a high place
+[25Jan2024 14:29:44.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora fell from a high place
+[25Jan2024 14:33:04.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 14:34:15.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Aurora
+[25Jan2024 14:38:48.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 14:39:01.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Zombie
+[25Jan2024 14:40:00.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Zombie
+[25Jan2024 14:41:06.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 14:41:23.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was slain by Zombie
+[25Jan2024 14:42:32.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora was shot by Skeleton
+[25Jan2024 14:43:48.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Sweet Dreams]
+[25Jan2024 14:44:00.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy has made the advancement [Sweet Dreams]
+[25Jan2024 14:45:41.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy was blown up by Creeper
+[25Jan2024 14:50:02.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Acquire Hardware]
+[25Jan2024 14:51:23.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Suit Up]
+[25Jan2024 14:51:50.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora has made the advancement [Isn't It Iron Pick]
+[25Jan2024 14:54:30.111] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Judy lost connection: Disconnected
+[25Jan2024 14:54:30.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Judy left the game
+[25Jan2024 14:55:16.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aurora lost connection: Disconnected
+[25Jan2024 14:55:16.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aurora left the game
+[25Jan2024 14:55:26.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25Jan2024 14:55:26.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: save--all<--[HERE]
+[25Jan2024 14:55:29.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[25Jan2024 14:55:29.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[25Jan2024 14:55:36.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Jan2024 14:55:36.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Jan2024 14:55:36.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Jan2024 14:55:36.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Jan2024 14:55:36.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Jan2024 14:55:45.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Jan2024 14:55:45.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Jan2024 14:55:45.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Jan2024 14:55:45.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Jan2024 14:55:45.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Jan2024 14:55:45.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
